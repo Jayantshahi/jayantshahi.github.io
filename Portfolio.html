@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Jayant Kumar - Professional Portfolio</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				line-height: 1.6;
+				margin: 0;
+				padding: 0;
+				background-color: #f4f4f4;
+			}
+
+			.container {
+				width: 80%;
+				margin: auto;
+				overflow: hidden;
+			}
+
+			header {
+				background: #333;
+				color: #fff;
+				padding-top: 30px;
+				min-height: 70px;
+				border-bottom: #77aaff 3px solid;
+			}
+
+			header a {
+				color: #fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 16px;
+			}
+
+			header ul {
+				padding: 0;
+				list-style: none;
+			}
+
+			header li {
+				display: inline;
+				padding: 0 20px 0 20px;
+			}
+
+			.main-header {
+				text-align: center;
+				background: #333;
+				color: #fff;
+				padding: 50px 0;
+			}
+
+			.main-header h2 {
+				margin: 0;
+				font-size: 2.5em;
+			}
+
+			.content {
+				padding: 20px;
+				background: #fff;
+				margin-top: 20px;
+			}
+
+			.content h2 {
+				margin-top: 0;
+			}
+
+			.content p {
+				margin: 0;
+			}
+
+			.contact {
+				background: #333;
+				color: #fff;
+				padding: 20px 0;
+				text-align: center;
+			}
+
+			.contact a {
+				color: #77aaff;
+				text-decoration: none;
+			}
+
+			footer {
+				text-align: center;
+				padding: 20px;
+				background: #333;
+				color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1>Jayant Kumar</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="main-header">
+			<div class="container">
+				<h2>Senior Data Engineer</h2>
+			</div>
+		</section>
+
+		<section id="about" class="content container">
+			<h2>About Me</h2>
+			<p>Possess 6 years of experience in data & software engineering using machine learning algorithms, data processing, and predictive data modeling to deliver insights and action-oriented solutions for challenging business problems. Involved in all aspects of Software development methodology including Requirement Analysis, Design Specification, Implementation, Testing and deployment of Enterprise and Web-based Applications.</p>
+			<p>In addition to my professional career, I enjoy playing badminton, soccer, and cricket.</p>
+		</section>
+
+		<section id="experience" class="content container">
+			<h2>Experience</h2>
+			<h3>Senior Data Engineer - Publicis Sapient, India (January 2024 - Present)</h3>
+			<ul>
+				<li>Delivering the automation of data engineering pipelines through the removal of manual stages.</li>
+				<li>Developing solutions for streaming data ingestion and transformations in line with streaming strategy.</li>
+			</ul>
+			<h3>Data Engineer - Axtria, NJ (August 2022 - December 2023)</h3>
+			<ul>
+				<li>Collaborated with cross-functional teams to define ETL requirements and design data integration workflows.</li>
+				<li>Developed ETL scripts using Python and PySpark to cleanse, transform, and aggregate data from S3 sources into a centralized data lake.</li>
+				<li>Wrote SQL queries and procedures for communication with the database on Athena.</li>
+				<li>Deployed Oracle database on AWS RDS and systems were deployed to AWS EMR using Spark.</li>
+				<li>Designed and implemented MLOps pipelines using Databricks, enabling automated model training, testing, validation, and deployment.</li>
+				<li>Orchestrated complex data pipelines and workflows using Apache Airflow, coordinating data extraction, transformation, and loading processes.</li>
+				<li>Utilized machine learning algorithms such as linear regression, multivariate regression, naive bayes, Random Forests, K-means, & KNN for data analysis.</li>
+			</ul>
+			<h3>Data Engineer - BCC Geospatial Center of the CUNY Crest, New York (September 2021 - December 2021)</h3>
+			<ul>
+				<li>Build a map of spatial decision support system (SDSS) using QGIS and Python that will assist in implementing the road map and help the city accomplish its goals in decarbonization.</li>
+				<li>Methods included performing a range of data analysis, pre-processing, visualization, and Spatio-temporal analyses on geospatial data for developing an interactive map SDSS that will be used to make informed decisions for decarbonization measures and policies.</li>
+				<li>Link of research paper published during my internship: <a href="https://link.springer.com/chapter/10.1007/978-3-031-21587-2_13">Research Paper</a></li>
+			</ul>
+			<h3>Software Engineer - Toshiba Software Ltd., India (2015 - 2019)</h3>
+			<ul>
+				<li>Orchestrated test cases in C++ based on SATA and NVME protocols to ensure significant improvement in performance of firmware.</li>
+				<li>Involved in all the phases of data science project life cycle including data extraction, data cleaning, transforming and visualization.</li>
+				<li>Responsible for data identification, collection, exploration, cleaning for modeling.</li>
+			</ul>
+		</section>
+
+		<section id="projects" class="content container">
+			<h2>Projects</h2>
+			<h3>Created a model to predict relationships in a given sentence using NER | (Technical Scope: NLP, Bi-LSTM)</h3>
+			<ul>
+				<li>Created a model that takes a sentence and identifies the organization a person works for and that person’s name.</li>
+			</ul>
+
+			<h3>Created WebAPI Summarization using NLP | (Technical Scope: Python-Flask, NLP, Swagger UI)</h3>
+			<ul>
+				<li>Uploaded a file through Swagger UI on WebAPI and provided summarized text using extraction-based summarization.</li>
+			</ul>
+
+			<h3>Predicting Stock Price using Machine Learning: Tesla | (Technical Scope: Python, Tableau)</h3>
+			<ul>
+				<li>The outcomes of this ARIMA analysis were positive.</li>
+				<li>Compared to other options such as RNNs, this model displayed good prediction accuracy and was relatively fast.</li>
+			</ul>
+
+			<h3>Bitcoin Historical Price Analysis and Prediction | (Technical Scope: AWS Sagemaker, TensorFlow) | June 2022</h3>
+			<ul>
+				<li>Accurately predicted Bitcoin’s price based on historical price data by developing a price analysis and prediction model using RNN and LSTM models.</li>
+			</ul>
+
+			<h3>COVID-19 Map Tracker | (Technical Scope: SQL, Geopandas, Bokeh, Human-Computer Interaction) | May 2021</h3>
+			<ul>
+				<li>Built an interactive COVID-19 map tracker to present state-wise information of total cases, deaths, and vaccines using a COVID-19 dataset and enabled users to hover over each state and get the required information.</li>
+			</ul>
+
+			<h3>Artist Recommendation System | (Technical Scope: AWS, PySpark)</h3>
+			<ul>
+				<li>Recommended artists using the ALS model and Collaborative Filtering on Yahoo dataset for a given user.</li>
+			</ul>
+
+			<h3>Sentiment Analysis of Airbnb Dataset | (Technical Scope: NLP, Python)</h3>
+			<ul>
+				<li>Measured the rates of positive, non-partisan, and negative reviews and words using an opinion classifier.</li>
+				<li>Carried out sentiment analysis and created a word cloud.</li>
+			</ul>
+
+			<h3>Attrition Dataset Analysis | (Technical Scope: R, Machine Learning) | December 2020</h3>
+			<ul>
+				<li>Enabled an organization to find ways to prevent attrition and to plan new candidate hiring by devising a model deploying an ensemble of K-nearest neighbors, Gaussian Naive Bayes, Random Forest, Artificial Neural Network, and Support Vector Machine.</li>
+			</ul>
+		</section>
+
+		<section id="skills" class="content container">
+			<h2>Skills</h2>
+			<ul>
+				<li>Python, PySpark, SQL</li>
+				<li>Data Engineering, Machine Learning</li>
+				<li>ETL, Data Pipeline Orchestration</li>
+				<li>AWS, Databricks, Apache Airflow</li>
+			</ul>
+		</section>
+
+		<section id="education" class="content container">
+			<h2>Education</h2>
+			<p><strong>Master of Science in Computer Science</strong> - Stevens Institute of Technology, NJ (2021)</p>
+			<p><strong>Bachelor of Engineering in Computer Science</strong> - Coimbatore Institute of Technology, Anna University, India (2015)</p>
+		</section>
+
+		<section id="contact" class="contact">
+			<h2>Contact</h2>
+			<p>Email: <a href="mailto:jayantkumarshahi7623@gmail.com">jayantkumarshahi7623@gmail.com</a></p>
+			<p>LinkedIn: <a href="https://www.linkedin.com/in/jayant-kumar-s">Jayant Kumar LinkedIn</a></p>
+			<p>Phone: +917022305143</p>
+		</section>
+
+		<footer>
+			<p>&copy; 2024 Jayant Kumar</p>
+		</footer>
+	</body>
+
+</html>
